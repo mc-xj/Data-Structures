@@ -101,6 +101,8 @@ int Prim(int start)
 int main(void)
 {
     int total;
+    printf("\n========== 学号：待填写  姓名：待填写 ==========\n");
+    printf("========== 实验三  基于图结构的算法应用综合设计 ==========\n");
     if (!ReadGraph()) {
         fprintf(stderr, "输入非法或不完整。\n");
         return 1;

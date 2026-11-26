@@ -210,6 +210,8 @@ void LinkDemo(void)
 int main(void)
 {
     int choice;
+    printf("\n========== 学号：待填写  姓名：待填写 ==========\n");
+    printf("========== 实验一  线性表的表示与实现 ==========\n");
     for (;;) {
         printf("\n1. 顺序表操作\n2. 单链表操作\n0. 退出\n请选择：");
         if (scanf("%d", &choice) != 1 || choice == 0) break;

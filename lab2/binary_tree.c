@@ -89,6 +89,8 @@ int CountOneChild(BiTree T)
 int main(void)
 {
     BiTree T = NULL;
+    printf("\n========== 学号：待填写  姓名：待填写 ==========\n");
+    printf("========== 实验二  二叉树的表示与实现 ==========\n");
     printf("请输入先序扩展序列（# 表示空子树，输入结束后回车）：\n");
     if (!CreateBiTree(&T)) {
         fprintf(stderr, "构造失败：序列不完整或内存不足。\n");
