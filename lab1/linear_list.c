@@ -175,6 +175,7 @@ void SeqDemo(void)
     pos = SeqLocate(L, 55);
     if (pos) printf("元素 55 的位序 = %d\n", pos);
     else printf("未找到 55，位序 = 0\n");
+    printf("\n在第 4 个位置插入 45：\n");
     if (SeqInsert(&L, 4, 45)) SeqPrint(L);
     else printf("插入失败。\n");
     if (SeqDelete(&L, 6, &e)) {
@@ -196,6 +197,7 @@ void LinkDemo(void)
     p = LinkLocate(L, 55);
     if (p != NULL) printf("找到结点，其值为 %d\n", p->data);
     else printf("未找到 55\n");
+    printf("\n在第 4 个位置插入 45：\n");
     if (LinkInsert(L, 4, 45)) LinkPrint(L);
     else printf("插入失败。\n");
     if (LinkDelete(L, 6, &e)) {
